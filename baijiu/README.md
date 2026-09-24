@@ -34,13 +34,9 @@ python3 fix_audio.py  # 台词变速/响度归一/闪避→BGM52s重排→混音
 - **配音**：4 个音色（许仙/白娘子/小青/旁白），静音压缩+atempo 变速+响度归一+BGM 闪避
 - **音效/BGM**：numpy 程序化合成（`audio/sfx/` 26 个：杯嗒/吞咽/脚步/回音喊声/轰鸣/天旋地转/噗/变身嗡/蝉鸣/叮/问号/乌鸦/鼓点/啪…；BGM 三段式：箫声→紧张急停→轻快鼓点→片尾暖垫）
 
-## 待办（下一轮图片配额恢复后）
+## 素材状态
 
-镜 3/5/9/10 暂用相邻镜头裁切替身（`build/S0{3,5,9}.jpg`、`S10.jpg`），补生成后删除替身文件重跑 `build.py && python3 fix_audio.py` 即可：
-- S3 白娘子端杯近景（参考 `assets/shot02_toast.png`）
-- S5 仰头一饮而尽大特写
-- S9 许仙淡定喝酒瞥蛇（参考 `assets/shot02_toast.png` + `assets/shot08_snake.png`）
-- S10 小蛇委屈抬头发问大特写（参考 `assets/shot08_snake.png`）
+14 镜关键帧全部为 AI 正式生成（`assets/`，角色一致性通过参考图链保证）。
 
 ## 升级真·AI视频
 

@@ -19,14 +19,14 @@ W, H = 1920, 1080
 SHOTS = [  # (素材名, 时长s, 运镜, 字幕png或None)
     ('shot01_empty',    3.0, ('zoom', 1.00, 1.085), 'title.png'),
     ('shot02_toast',    3.0, ('zoom', 1.001, 1.001), None),
-    ('S03',             2.0, ('zoom', 1.00, 1.07), None),   # 替身
+    ('shot03_pickup',   2.0, ('zoom', 1.00, 1.07), None),
     ('shot04_xiaoqing', 2.0, ('zoom', 1.00, 1.10), None),
-    ('S05',             2.0, ('zoomtilt', 1.00, 1.12, 0.05), None),  # 替身
+    ('shot05_drink',    2.0, ('zoomtilt', 1.00, 1.12, 0.05), None),
     ('shot06_dizzy',    3.0, ('sway', 1.07, 8.0, 13.0), None),
     ('shot07_fall',     2.0, ('zoom', 1.00, 1.13), None),
     ('shot08_snake',    3.0, ('zoom', 1.10, 1.00), None),
-    ('S09',             3.0, ('zoom', 1.03, 1.06), None),   # 替身
-    ('S10',             3.0, ('zoom', 1.00, 1.12), None),   # 替身
+    ('shot09_calm',     3.0, ('zoom', 1.03, 1.06), None),
+    ('shot10_snakeline', 3.0, ('zoom', 1.00, 1.12), None),
     ('shot11_phone',    3.0, ('zoom', 1.001, 1.001), 'sub11.png'),
     ('shot12_appui',    4.0, ('zoom', 1.00, 1.06), 'sub12.png'),
     ('shot13_pat',      3.0, ('shake', 1.02), None),
